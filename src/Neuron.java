@@ -2,8 +2,8 @@ import java.util.Random;
 
 public class Neuron {
     private final Random r = new Random();
-    public double w1;
-    public double w2;
+    private double w1;
+    private double w2;
     private double[] x1s;
     private double[] x2s;
     private double[] targetArray;
@@ -55,10 +55,6 @@ public class Neuron {
         this.mse = sumOfSquares/x1s.length;
         System.out.printf("MSE= %,.5f", mse);
         System.out.println();
-    }
-
-    public double getMse() { // mse getter
-        return mse;
     }
 
     public void setLambda(double lambda) { //lambda setter

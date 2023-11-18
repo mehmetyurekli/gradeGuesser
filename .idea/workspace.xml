@@ -77,6 +77,9 @@
       <workItem from="1700072633277" duration="6000" />
       <workItem from="1700137463557" duration="737000" />
       <workItem from="1700154770026" duration="2017000" />
+      <workItem from="1700157454489" duration="581000" />
+      <workItem from="1700307116111" duration="2152000" />
+      <workItem from="1700310562329" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1699900723964</created>
@@ -85,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699900723964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1700157684692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700157684692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,20 +127,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Neuron.java</url>
-          <line>44</line>
-          <properties class="Neuron" method="printGuesses">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

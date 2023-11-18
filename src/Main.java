@@ -8,13 +8,13 @@ public class Main {
         //creating 3 different neurons and training them using different lambdas and epochs.
         Neuron neuronOne = new Neuron();
         neuronOne.load(x1, x2, target);
-        neuronOne.setLambda(0.05);
-        neuronOne.train(100);
+        neuronOne.setLambda(0.01);
+        neuronOne.train(10);
 
         Neuron neuronTwo = new Neuron();
         neuronTwo.load(x1, x2, target);
-        neuronTwo.setLambda(0.05);
-        neuronTwo.train(100);
+        neuronTwo.setLambda(0.025);
+        neuronTwo.train(50);
 
         Neuron neuronThree = new Neuron();
         neuronThree.load(x1, x2, target);
